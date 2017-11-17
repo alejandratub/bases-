@@ -18,6 +18,17 @@
       "type": "belongsTo",
       "model": "evento",
       "foreignKey": ""
+    },
+    "muebles": {
+      "type": "hasMany",
+      "model": "mueble",
+      "foreignKey": "",
+      "through": "renta"
+    },
+    "mueble": {
+      "type": "belongsTo",
+      "model": "mueble",
+      "foreignKey": ""
     }
   },
   "acls": [

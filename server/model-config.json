@@ -62,5 +62,9 @@
   "pago": {
     "dataSource": "x",
     "public": true
+  },
+  "renta": {
+    "dataSource": "x",
+    "public": true
   }
 }
