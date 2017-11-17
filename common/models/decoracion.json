@@ -20,7 +20,19 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "cotizacions": {
+      "type": "hasMany",
+      "model": "cotizacion",
+      "foreignKey": "",
+      "through": "renta_decoracion"
+    },
+    "cotizacion": {
+      "type": "belongsTo",
+      "model": "cotizacion",
+      "foreignKey": ""
+    }
+  },
   "acls": [
     {
       "accessType": "*",

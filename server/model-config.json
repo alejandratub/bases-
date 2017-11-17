@@ -66,5 +66,9 @@
   "renta": {
     "dataSource": "x",
     "public": true
+  },
+  "renta_decoracion": {
+    "dataSource": "x",
+    "public": true
   }
 }

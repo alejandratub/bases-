@@ -29,6 +29,17 @@
       "type": "belongsTo",
       "model": "mueble",
       "foreignKey": ""
+    },
+    "decoracions": {
+      "type": "hasMany",
+      "model": "decoracion",
+      "foreignKey": "",
+      "through": "renta_decoracion"
+    },
+    "decoracion": {
+      "type": "belongsTo",
+      "model": "decoracion",
+      "foreignKey": ""
     }
   },
   "acls": [
