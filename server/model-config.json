@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "empleado": {
+    "dataSource": "x",
+    "public": true
+  },
+  "cliente": {
+    "dataSource": "x",
+    "public": true
+  },
+  "mueble": {
+    "dataSource": "x",
+    "public": true
+  },
+  "decoracion": {
+    "dataSource": "x",
+    "public": true
+  },
+  "evento": {
+    "dataSource": "x",
+    "public": true
+  },
+  "cotizacion": {
+    "dataSource": "x",
+    "public": true
+  },
+  "pago": {
+    "dataSource": "x",
+    "public": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "mueble",
+  "plural": "muebles",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "tipo": {
+      "type": "string"
+    },
+    "cantidad": {
+      "type": "number",
+      "required": true
+    },
+    "costo_renta": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
