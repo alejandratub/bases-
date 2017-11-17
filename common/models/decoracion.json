@@ -20,7 +20,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "cotizacions": {
+      "type": "hasAndBelongsToMany",
+      "model": "cotizacion",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

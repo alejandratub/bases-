@@ -18,6 +18,16 @@
       "type": "belongsTo",
       "model": "evento",
       "foreignKey": ""
+    },
+    "muebles": {
+      "type": "hasAndBelongsToMany",
+      "model": "mueble",
+      "foreignKey": ""
+    },
+    "decoracions": {
+      "type": "hasAndBelongsToMany",
+      "model": "decoracion",
+      "foreignKey": ""
     }
   },
   "acls": [],
