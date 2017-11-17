@@ -30,6 +30,11 @@
       "type": "belongsTo",
       "model": "cliente",
       "foreignKey": ""
+    },
+    "cotizacions": {
+      "type": "hasOne",
+      "model": "cotizacion",
+      "foreignKey": ""
     }
   },
   "acls": [],

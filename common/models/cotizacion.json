@@ -13,7 +13,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "evento": {
+      "type": "belongsTo",
+      "model": "evento",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
