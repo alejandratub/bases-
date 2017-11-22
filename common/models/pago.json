@@ -18,9 +18,9 @@
   },
   "validations": [],
   "relations": {
-    "cotizacion": {
+    "evento": {
       "type": "belongsTo",
-      "model": "cotizacion",
+      "model": "evento",
       "foreignKey": ""
     }
   },

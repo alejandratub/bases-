@@ -48,11 +48,6 @@
       "type": "belongsTo",
       "model": "decoracion",
       "foreignKey": ""
-    },
-    "pagos": {
-      "type": "hasOne",
-      "model": "pago",
-      "foreignKey": ""
     }
   },
   "acls": [

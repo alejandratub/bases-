@@ -35,6 +35,11 @@
       "type": "hasOne",
       "model": "cotizacion",
       "foreignKey": ""
+    },
+    "pagos": {
+      "type": "hasOne",
+      "model": "pago",
+      "foreignKey": ""
     }
   },
   "acls": [
