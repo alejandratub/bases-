@@ -14,25 +14,25 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "x"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "x",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "x",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "x",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "x",
     "public": false
   },
   "empleado": {

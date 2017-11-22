@@ -30,11 +30,6 @@
       "model": "cotizacion",
       "foreignKey": "",
       "through": "renta"
-    },
-    "cotizacion": {
-      "type": "belongsTo",
-      "model": "cotizacion",
-      "foreignKey": ""
     }
   },
   "acls": [

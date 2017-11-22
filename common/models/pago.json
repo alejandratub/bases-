@@ -17,7 +17,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "cotizacion": {
+      "type": "belongsTo",
+      "model": "cotizacion",
+      "foreignKey": ""
+    }
+  },
   "acls": [
     {
       "accessType": "*",

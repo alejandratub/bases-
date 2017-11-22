@@ -7,6 +7,14 @@
     "validateUpsert": true
   },
   "properties": {
+    "precio_montaje": {
+      "type": "number",
+      "required": true
+    },
+    "flete": {
+      "type": "number",
+      "required": true
+    },
     "total": {
       "type": "number",
       "required": true
@@ -39,6 +47,11 @@
     "decoracion": {
       "type": "belongsTo",
       "model": "decoracion",
+      "foreignKey": ""
+    },
+    "pagos": {
+      "type": "hasOne",
+      "model": "pago",
       "foreignKey": ""
     }
   },
