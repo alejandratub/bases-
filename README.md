@@ -1,6 +1,6 @@
 # Masmesas
 
-En este repostorio se encuentra el back-end del proyecto de Bases de Datos, para poderlo correr localmente, también es necesario usar el repositorio que se encuentra en https://github.com/alejandratub/masmesas/tree/chida y seguir las instrucciones de instalación. Para poder usar este repositorio es necesario tener instalado `LoopBack`, `Node JS` y `MondoDB`, para instalar Loopback use el comando `npm install -g loopback-cli`.
+En este repostorio se encuentra el back-end del proyecto de Bases de Datos, para poderlo correr localmente, también es necesario usar el repositorio que se encuentra en https://github.com/alejandratub/masmesas/tree/chida y seguir las instrucciones de instalación. Para poder usar este repositorio es necesario tener instalado `LoopBack`, `Node JS` y `MondoDB`, para instalar Loopback use el comando `npm install -g loopback-cli`. Asegurese de tener la última versión estable de `Node JS`o la 8.0.0, de lo contrario puede no funcionar correctamente.
  
  # Descarga del repositorio y pasos importantes
  
